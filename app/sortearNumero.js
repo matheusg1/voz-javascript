@@ -14,6 +14,3 @@ const elementoMenorValor = document.querySelector('#menor-valor')
 elementoMenorValor.innerHTML = menorValor
 
 const box = document.querySelector('.box')
-box.innerText = 
-
-console.log()

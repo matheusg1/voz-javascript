@@ -1,5 +1,4 @@
-window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition
-webkitSpeechRecognition;
+const SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition
 
 const recognition = new SpeechRecognition()
 recognition.lang = 'pt-BR'
